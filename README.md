@@ -4,7 +4,8 @@
 Make sure Node js is install in your local pc
 ```
 git clone https://github.com/shouryaraj/wiki-table-scraper.git
-npm run postinstall
+npm run installbackend
+npm run installfrontend
 npm run dev
 ```
 Server will start running on the default web browser
