@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cd frontend && npm start",
+    "start": "cd backend && node index.js",
     "backend": "cd backend && node index.js",
     "dev": "concurrently --kill-others-on-fail \"npm run api\" \"npm run frontend\"",
     "heroku-postbuild": "cd frontend && npm install && npm run build"
