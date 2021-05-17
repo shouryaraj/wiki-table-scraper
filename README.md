@@ -4,6 +4,7 @@
 Make sure Node js is install in your local pc
 ```
 git clone https://github.com/shouryaraj/wiki-table-scraper.git
+cd wiki-table-scraper
 npm run installbackend
 npm run installfrontend
 npm run dev
