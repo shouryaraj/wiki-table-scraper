@@ -156,10 +156,10 @@ function numericalCol(state){
     }
 
 
-app.use(express.static(path.join(__dirname, '../frontend/build')))
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname + '/../frontend/build/index.html'))
-  })
+// app.use(express.static(path.join(__dirname, '../frontend/build')))
+// app.get('*', (req, res) => {
+//     res.sendFile(path.join(__dirname + '/../frontend/build/index.html'))
+//   })
 // Middleware to communicate between frontend and backend
 app.use(cors())
 // '/url/', 
