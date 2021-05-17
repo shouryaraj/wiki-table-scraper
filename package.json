@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "concurrently": "npm install -g concurrently",
     "frontend": "cd frontend && npm start",
-    "postinstall": "cd backend && npm install && cd frontend && npm install",
+    "backendinstall": "cd backend && npm install",
+    "installfrontend": "cd frontend && npm install",
     "backend": "cd backend && node index.js",
     "dev": "concurrently --kill-others-on-fail \"npm run backend\" \"npm run frontend\"",
     "heroku-postbuild": "cd frontend && npm install && npm run build"
@@ -13,6 +15,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cloudfoundry-cli": "^0.8.0"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
   }
 }
