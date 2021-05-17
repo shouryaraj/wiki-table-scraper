@@ -72,6 +72,8 @@ convertarray(dict){
     return (
       <div>
         <div style={center}>
+          <p style={{textAlign: "center", paddingBottom: "3%", fontSize: "50px"}}>URL</p>
+         
           <InputGroup style={styles}>
             {" "}
             <Input
@@ -86,8 +88,9 @@ convertarray(dict){
             </InputGroup.Addon>
             
           </InputGroup>
+          <p style={{textAlign: "left",paddingBottom: "1%"}}>Example: https://en.wikipedia.org/wiki/World_Tourism_rankings</p>
         </div>
-        <div>
+        <div >
         {/* Dynamically Maps the table from given server response */}
         {this.state.resp && this.state.resp.map(
             table =><div key={table} className="row"> {table.map(
