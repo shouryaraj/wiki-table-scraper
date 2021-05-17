@@ -24,5 +24,5 @@ if wiki link has Table with numerical content then it will return the exact colu
 ## Future Development
 + Adding error control for URL Link in the search bar
 + More AdHoc/CI CD testing with the Wiki pages
-+ Graph Chart with only releant information from the wiki page
++ Graph Chart for relevant information from the wiki page
 + Return Image of the chart and table by implementing a button with each chart and column to download the image
