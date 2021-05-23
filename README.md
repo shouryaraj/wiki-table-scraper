@@ -19,8 +19,13 @@ npm run dev
 ## Functionality 
 Currently, Search function only takes a proper Wikipedia Link e.g.
 `https://en.wikipedia.org/wiki/Good_Country_Index` 
-
 if wiki link has Table with numerical content then it will return the exact column with header. **A user can find it by scrolling down.**
+
+## System Flow
+System flow including Data format  
+[LUCID CHART](https://lucid.app/lucidchart/invitations/accept/inv_265799db-3612-4308-9e07-d372fc37e260?viewport_loc=166%2C73%2C2156%2C1034%2C0_0)  
+  
+  
 ## Assumption
 + To identify the numerical column, the value has to be number and number with commas can also be consider. 
 + If a column has a number more than 60% of column length(number of rows) then program will consider it as numerical column.
